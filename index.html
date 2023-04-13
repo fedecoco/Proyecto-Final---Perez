@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <! link Css >
+    <link rel="stylesheet" href="/css/style.css">
+
+        <title>Mata cucarachas</title>
+</head>
+
+<body>
+    <div class="container">
+      <h1> Mata Cucarachas</h1>
+
+        <p>Usa el cursor del mouse para mover y aplastar las cucarachas.</p>
+        <div id="game-container">
+                  
+          <!-- Aquí va el puntaje máximo -->
+          <div id="scores-container">
+            <h2>Puntajes máximos</h2>
+            <ul id="score-list"></ul>
+          </div>
+      <div class="game">
+        <div class="hand"></div>
+        <div class="bugs"></div>
+      </div>
+      
+      </div>
+    <div class="buttons">
+        <button id="start-button">Iniciar juego</button>
+        <button id="reset-button">Reiniciar juego</button>
+        <div class="scoreboard">
+          <p>Puntuación actual: <span id="score">0</span></p>
+          <p>Tiempo restante: <span id="timer">30</span> segundos</p>
+      </div>
+      <!-- Aquí van los puntajes máximos -->
+      <div class="score-container"></div>
+  </div>
+    
+<! Swit Alert >
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<! Java script >
+ <script src="/java/app.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../Programacion/mokepon"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Penales"
+	}
+}
